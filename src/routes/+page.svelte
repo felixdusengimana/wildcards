@@ -8,7 +8,7 @@
 	<meta name="description" content="wildcards showcase what they do best" />
 </svelte:head>
 
-<section>
+<section class="bg-[url('$lib/images/home.jpg')] py-10 bg-cover bg-no-repeat w-full min-h-[1000px]">
 	<h1>
 		<span class="welcome">
 			<picture>
@@ -16,19 +16,16 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-		to wildcards thinktank 🚀
+		<p class="font-bold max-w-[500px] mx-auto text-center">Join the Education Revolution with Wildcards</p>
 	</h1>
 </section>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+<div>
+	<p>How it works</p>
+	<h1>Embark on Your Green Journey</h1>
+</div>
 
+<style>
 	h1 {
 		width: 100%;
 	}
@@ -45,7 +42,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		top: 0;
+		top: 100px;
 		display: block;
 	}
 </style>
