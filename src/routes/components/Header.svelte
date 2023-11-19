@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="py-3 px-5 flex items-center justify-between bg-transparent">
+<header class="py-3 px-5 flex items-center justify-between bg-[#ccff00]">
 	<div>
 		<a href="/" class="text-black uppercase font-bold">
 			wildcards
@@ -14,11 +14,15 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" class="text-black font-medium">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a class="text-black font-medium" href="/about">About</a>
+			<li aria-current={$page.url.pathname === '/#about' ? 'page' : undefined}>
+				<a class="text-black font-medium" href="/#about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a class="text-black font-medium" href="/sverdle">Solution</a>
+			<li aria-current={$page.url.pathname === '/#team' ? 'page' : undefined}>
+				<a class="text-black font-medium" href="/#team">Team</a>
+			</li>
+			
+			<li aria-current={$page.url.pathname.startsWith('/#solution') ? 'page' : undefined}>
+				<a class="text-black font-medium" href="/#solution">Solution</a>
 			</li>
 		</ul>
 	</nav>

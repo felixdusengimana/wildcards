@@ -1,5 +1,6 @@
 <script>
-	import Header from './components/Header.svelte';
+	import Footer from './components/Footer.svelte';
+import Header from './components/Header.svelte';
 	import './styles.css';
 </script>
 
@@ -12,7 +13,5 @@
 		</div>
 	</main>
 
-	<footer class="text-3xl text-red-500 font-bold underline">
-		wildcards think-tank
-	</footer>
+	<Footer />
 </div>
