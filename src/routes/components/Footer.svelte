@@ -18,9 +18,8 @@
             </ul>
         </div>
                 <div class="text-center">
-                    <p>© {new Date().getFullYear()} <a href="
-                        https://www.facebook.com/abhishek.singh.rajput.754365
-                        ">Felix Dusengimana</a>. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} <a href="https://www.feldux.com/" class="text-black font-medium"
+                        >Felix Dusengimana</a>. All rights reserved.</p>
                 </div>
     </div>
 </footer>
