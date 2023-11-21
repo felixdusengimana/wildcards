@@ -4,9 +4,7 @@
 
 <header class="py-3 px-5 flex items-center justify-between bg-[#ccff00]">
 	<div>
-		<a href="/" class="text-black uppercase font-bold">
-			wildcards
-		</a>
+		<a href="/" class="text-black uppercase font-bold"> wildcards </a>
 	</div>
 
 	<nav>
@@ -20,9 +18,12 @@
 			<li aria-current={$page.url.pathname === '/#team' ? 'page' : undefined}>
 				<a class="text-black font-medium" href="/#team">Team</a>
 			</li>
-			
+
 			<li aria-current={$page.url.pathname.startsWith('/#solution') ? 'page' : undefined}>
 				<a class="text-black font-medium" href="/#solution">Solution</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/#challenges') ? 'page' : undefined}>
+				<a class="text-black font-medium" href="/#challenges">ELab Challenges</a>
 			</li>
 		</ul>
 	</nav>
@@ -33,5 +34,4 @@
 		</li>
 		<li><button class="bg-white py-2 px-4 rounded-md">Get Started</button></li> -->
 	</ul>
-
 </header>

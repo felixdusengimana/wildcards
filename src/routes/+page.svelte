@@ -273,8 +273,9 @@
 		{/each}
 	</div>
 </section>
-
-<ELabChallenges />
+<section id="challenges">
+	<ELabChallenges />
+</section>
 
 <style>
 	.welcome {
